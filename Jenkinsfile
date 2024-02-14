@@ -1,4 +1,6 @@
  def registry = 'https://shiva2devops.jfrog.io/'
+ def imageName = 'shiva2devops.jfrog.io/docker-docker-local/demojar'
+ def version   = '2.1.2'
 pipeline {
     agent {
         node{
